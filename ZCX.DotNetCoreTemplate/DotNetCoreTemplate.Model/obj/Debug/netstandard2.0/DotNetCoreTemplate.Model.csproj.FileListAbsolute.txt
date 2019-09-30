@@ -1,0 +1,9 @@
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\bin\Debug\netstandard2.0\DotNetCoreTemplate.Model.deps.json
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\bin\Debug\netstandard2.0\DotNetCoreTemplate.Model.dll
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\obj\Debug\netstandard2.0\DotNetCoreTemplate.Model.csprojAssemblyReference.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\obj\Debug\netstandard2.0\DotNetCoreTemplate.Model.csproj.CoreCompileInputs.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\obj\Debug\netstandard2.0\DotNetCoreTemplate.Model.AssemblyInfoInputs.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\obj\Debug\netstandard2.0\DotNetCoreTemplate.Model.AssemblyInfo.cs
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\bin\Debug\netstandard2.0\DotNetCoreTemplate.Model.pdb
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\obj\Debug\netstandard2.0\DotNetCoreTemplate.Model.dll
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Model\obj\Debug\netstandard2.0\DotNetCoreTemplate.Model.pdb

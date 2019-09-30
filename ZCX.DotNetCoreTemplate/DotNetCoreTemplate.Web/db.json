@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "-1",
+    "Name": "不存在的项目",
+    "Host": "http://127.0.0.1",
+    "DatabaseConnectionString": "Data Source=192.168.33.176;port=3306;Database=fusion_web_700;User ID=root;Password=root;CharSet=utf8;SslMode=None"
+  },
+  {
+    "Id": "721",
+    "Name": "项目1",
+    "Host": "http://192.168.33.100/721",
+    "DatabaseConnectionString": "Data Source=192.168.33.100;port=3306;Database=fusion_web_721;User ID=root;Password=root;CharSet=utf8;SslMode=None"
+  },
+  {
+    "Id": "722",
+    "Name": "项目2",
+    "Host": "http://192.168.33.100/722",
+    "DatabaseConnectionString": "Data Source=192.168.33.100;port=3306;Database=fusion_web_722;User ID=root;Password=root;CharSet=utf8;SslMode=None"
+  }
+]

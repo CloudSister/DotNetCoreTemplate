@@ -1,0 +1,26 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "错误";
+}
+
+<h1 class="text-danger">出错啦！</h1>
+<h2 class="text-danger">在处理您的请求时出现错误.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>请求编号:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>开发模式</h3>
+<p>
+    切换到 <strong>Development</strong> 环境将显示发生错误的详细信息.
+</p>
+<p>
+    <strong>在部署应用程序时，Development环境设置应当禁用.</strong>
+    否则会导致一些异常的敏感信息暴露给终端用户.
+    对于本地调试，开启<strong>Development</strong>环境变量，通过设置<strong>ASPNETCORE_ENVIRONMENT</strong> 环境变量值为<strong>Development</strong>
+    然后重新启动应用程序.
+</p>
