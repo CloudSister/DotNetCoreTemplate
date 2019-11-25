@@ -25,31 +25,12 @@
     <script src="~/js/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="~/js/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-    </environment>
-    <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
-              crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
-    </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <div class="page">
         <!-- Main Navbar-->
         <header class="header">
             <nav class="navbar">
-                <!-- Search Box-->
-                <div class="search-box">
-                    <button class="dismiss"><i class="icon-close"></i></button>
-                    <form id="searchForm" action="#" role="search">
-                        <input type="search" placeholder="What are you looking for..." class="form-control">
-                    </form>
-                </div>
                 <div class="container-fluid">
                     <div class="navbar-holder d-flex align-items-center justify-content-between">
                         <!-- Navbar Header-->
@@ -58,7 +39,8 @@
                                 <div class="brand-text d-none d-lg-inline-block"><strong>暖枫无敌之ASP.NET Core快速开发框架</strong></div>
                                 <div class="brand-text d-none d-sm-inline-block d-lg-none"><strong>BD</strong></div>
                             </a>
-                            <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
+                            <!-- Toggle Button-->
+                            <a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
                         </div>
                         <!-- Navbar Menu -->
                         <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
@@ -104,13 +86,13 @@
                 </div>
                 <ul class="list-unstyled">
                     <li class="active"><a href="~/Tools"><i class="icon-home"></i>主页</a></li>
-                    <li><a href="#" target="_blank"> <i class="icon-screen"></i>用户管理</a></li>
-                    <li><a href="#" target="_blank"> <i class="icon-screen"></i>机构管理</a></li>
-                    <li><a href="#" target="_blank"> <i class="icon-screen"></i>权限管理</a></li>
-                    <li><a href="#" target="_blank"> <i class="fa fa-bar-chart"></i>菜单管理</a></li>
-                    <li><a href="#" target="_blank"> <i class="icon-grid"></i>商品列表</a></li>
-                    <li><a href="#" title="开源中国" target="_blank"> <i class="icon-padnote"></i>订单列表</a></li>
-                    <li><a href="#" title="IT之家" target="_blank"> <i class="icon-interface-windows"></i>修改密码</a></li>
+                    <li><a href="~/Index" title="用户管理"> <i class="icon-screen"></i>用户管理</a></li>
+                    <li><a href="~/Privacy" title="机构管理"> <i class="icon-screen"></i>机构管理</a></li>
+                    <li><a href="~/Tools" title="权限管理"> <i class="icon-screen"></i>权限管理</a></li>
+                    <li><a href="~/Index" title="菜单管理"> <i class="fa fa-bar-chart"></i>菜单管理</a></li>
+                    <li><a href="~/Privacy" title="商品列表"> <i class="icon-grid"></i>商品列表</a></li>
+                    <li><a href="~/Tools" title="订单列表"> <i class="icon-padnote"></i>订单列表</a></li>
+                    <li><a href="~/Index" title="修改密码"> <i class="icon-interface-windows"></i>修改密码</a></li>
                 </ul>
             </nav>
             <div class="content-inner">
@@ -118,12 +100,6 @@
             </div>
         </div>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2019 - DotNetCoreTemplate.Web - <a asp-area="" asp-page="/Privacy">隐私</a>
-        </div>
-    </footer>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
