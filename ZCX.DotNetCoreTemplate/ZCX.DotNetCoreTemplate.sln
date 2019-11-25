@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreTemplate.Web", "DotNetCoreTemplate.Web\DotNetCoreTemplate.Web.csproj", "{2B6321E0-61F5-4253-B567-94DEC2E51709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreTemplate.Web", "DotNetCoreTemplate.Web\DotNetCoreTemplate.Web.csproj", "{2B6321E0-61F5-4253-B567-94DEC2E51709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreTemplate.Model", "DotNetCoreTemplate.Model\DotNetCoreTemplate.Model.csproj", "{2040F6B3-290B-4134-A2F1-FAC719EBD416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreTemplate.Model", "DotNetCoreTemplate.Model\DotNetCoreTemplate.Model.csproj", "{2040F6B3-290B-4134-A2F1-FAC719EBD416}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetOwinOAuth", "DotNetOwinOAuth", "{099DAEC4-8897-478A-B8BA-9E631FC6B7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOwinOAuth.ResourceServer", "DotNetOwinOAuth.ResourceServer\DotNetOwinOAuth.ResourceServer.csproj", "{2A25779B-4FCB-4789-A8F8-84C59E576FC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{2040F6B3-290B-4134-A2F1-FAC719EBD416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2040F6B3-290B-4134-A2F1-FAC719EBD416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2040F6B3-290B-4134-A2F1-FAC719EBD416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A25779B-4FCB-4789-A8F8-84C59E576FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A25779B-4FCB-4789-A8F8-84C59E576FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A25779B-4FCB-4789-A8F8-84C59E576FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A25779B-4FCB-4789-A8F8-84C59E576FC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A25779B-4FCB-4789-A8F8-84C59E576FC6} = {099DAEC4-8897-478A-B8BA-9E631FC6B7CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6882D9D5-535D-47B5-A315-9713B3DD8BB7}

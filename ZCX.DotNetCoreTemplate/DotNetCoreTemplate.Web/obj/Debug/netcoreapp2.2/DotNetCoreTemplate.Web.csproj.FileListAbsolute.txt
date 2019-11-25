@@ -27,3 +27,5 @@ D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTe
 D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Web\obj\Debug\netcoreapp2.2\DotNetCoreTemplate.Web.dll
 D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Web\obj\Debug\netcoreapp2.2\DotNetCoreTemplate.Web.pdb
 D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Web\obj\Debug\netcoreapp2.2\DotNetCoreTemplate.Web.csproj.CopyComplete
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Web\obj\Debug\netcoreapp2.2\DotNetCoreTemplate.Web.csprojAssemblyReference.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetCoreTemplate.Web\obj\Debug\netcoreapp2.2\Razor\Pages\Tools.g.cshtml.cs

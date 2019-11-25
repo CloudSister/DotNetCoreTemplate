@@ -5,10 +5,101 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\custom.css" />
+    <Content Remove="wwwroot\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\css\fontastic.css" />
+    <Content Remove="wwwroot\css\style.default.css" />
+    <Content Remove="wwwroot\img\aliopen.png" />
+    <Content Remove="wwwroot\img\aliyun.png" />
+    <Content Remove="wwwroot\img\app.png" />
+    <Content Remove="wwwroot\img\cat.png" />
+    <Content Remove="wwwroot\img\csv.png" />
+    <Content Remove="wwwroot\img\deer.png" />
+    <Content Remove="wwwroot\img\dict.png" />
+    <Content Remove="wwwroot\img\dupan.png" />
+    <Content Remove="wwwroot\img\hr.png" />
+    <Content Remove="wwwroot\img\hr1.png" />
+    <Content Remove="wwwroot\img\iconfont.png" />
+    <Content Remove="wwwroot\img\jindie.png" />
+    <Content Remove="wwwroot\img\jira.png" />
+    <Content Remove="wwwroot\img\kaniu.png" />
+    <Content Remove="wwwroot\img\mail.png" />
+    <Content Remove="wwwroot\img\peise.png" />
+    <Content Remove="wwwroot\img\personnel.png" />
+    <Content Remove="wwwroot\img\qqditu.png" />
+    <Content Remove="wwwroot\img\qqmail.png" />
+    <Content Remove="wwwroot\img\qqyun.png" />
+    <Content Remove="wwwroot\img\risk_confluence.png" />
+    <Content Remove="wwwroot\img\suishouji.png" />
+    <Content Remove="wwwroot\img\tool.png" />
+    <Content Remove="wwwroot\img\topen.png" />
+    <Content Remove="wwwroot\img\vue.png" />
+    <Content Remove="wwwroot\img\wandoujia.png" />
+    <Content Remove="wwwroot\img\wangyi.png" />
+    <Content Remove="wwwroot\img\wendang.png" />
+    <Content Remove="wwwroot\img\yunzhijia.png" />
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\Chart.min.js" />
+    <Content Remove="wwwroot\js\charts-home.js" />
+    <Content Remove="wwwroot\js\front.js" />
+    <Content Remove="wwwroot\js\jquery.cookie.js" />
+    <Content Remove="wwwroot\js\jquery.min.js" />
+    <Content Remove="wwwroot\js\jquery.validate.min.js" />
+    <Content Remove="wwwroot\js\popper.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\custom.css" />
+    <None Include="wwwroot\css\font-awesome.min.css" />
+    <None Include="wwwroot\css\fontastic.css" />
+    <None Include="wwwroot\css\style.default.css" />
+    <None Include="wwwroot\img\aliopen.png" />
+    <None Include="wwwroot\img\aliyun.png" />
+    <None Include="wwwroot\img\app.png" />
+    <None Include="wwwroot\img\cat.png" />
+    <None Include="wwwroot\img\csv.png" />
+    <None Include="wwwroot\img\deer.png" />
+    <None Include="wwwroot\img\dict.png" />
+    <None Include="wwwroot\img\dupan.png" />
+    <None Include="wwwroot\img\hr.png" />
+    <None Include="wwwroot\img\hr1.png" />
+    <None Include="wwwroot\img\iconfont.png" />
+    <None Include="wwwroot\img\jindie.png" />
+    <None Include="wwwroot\img\jira.png" />
+    <None Include="wwwroot\img\kaniu.png" />
+    <None Include="wwwroot\img\mail.png" />
+    <None Include="wwwroot\img\peise.png" />
+    <None Include="wwwroot\img\personnel.png" />
+    <None Include="wwwroot\img\qqditu.png" />
+    <None Include="wwwroot\img\qqmail.png" />
+    <None Include="wwwroot\img\qqyun.png" />
+    <None Include="wwwroot\img\risk_confluence.png" />
+    <None Include="wwwroot\img\suishouji.png" />
+    <None Include="wwwroot\img\tool.png" />
+    <None Include="wwwroot\img\topen.png" />
+    <None Include="wwwroot\img\vue.png" />
+    <None Include="wwwroot\img\wandoujia.png" />
+    <None Include="wwwroot\img\wangyi.png" />
+    <None Include="wwwroot\img\wendang.png" />
+    <None Include="wwwroot\img\yunzhijia.png" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\Chart.min.js" />
+    <None Include="wwwroot\js\charts-home.js" />
+    <None Include="wwwroot\js\front.js" />
+    <None Include="wwwroot\js\jquery.cookie.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\jquery.validate.min.js" />
+    <None Include="wwwroot\js\popper.min.js" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
 </Project>

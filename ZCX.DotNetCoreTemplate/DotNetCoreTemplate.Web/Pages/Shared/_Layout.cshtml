@@ -1,9 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@ViewData["Title"] - 暖枫无敌</title>
+    <meta name="description" content="开源框架">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome CSS-->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Fontastic Custom icon font-->
+    <link href="~/css/fontastic.css" rel="stylesheet" />
+    <!-- theme stylesheet-->
+    <link href="~/css/style.default.css" rel="stylesheet" />
+    <link id="new-stylesheet" rel="stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link href="~/css/custom.css" rel="stylesheet" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="~/js/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="~/js/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -18,32 +39,84 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ASP.NET Core项目开发模板</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">主页</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">隐私</a>
-                        </li>
-                    </ul>
+    <div class="page">
+        <!-- Main Navbar-->
+        <header class="header">
+            <nav class="navbar">
+                <!-- Search Box-->
+                <div class="search-box">
+                    <button class="dismiss"><i class="icon-close"></i></button>
+                    <form id="searchForm" action="#" role="search">
+                        <input type="search" placeholder="What are you looking for..." class="form-control">
+                    </form>
                 </div>
+                <div class="container-fluid">
+                    <div class="navbar-holder d-flex align-items-center justify-content-between">
+                        <!-- Navbar Header-->
+                        <div class="navbar-header">
+                            <!-- Navbar Brand --><a href="#" class="navbar-brand d-none d-sm-inline-block">
+                                <div class="brand-text d-none d-lg-inline-block"><strong>暖枫无敌之ASP.NET Core快速开发框架</strong></div>
+                                <div class="brand-text d-none d-sm-inline-block d-lg-none"><strong>BD</strong></div>
+                            </a>
+                            <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
+                        </div>
+                        <!-- Navbar Menu -->
+                        <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+                            <!-- Search-->
+                            <!-- Languages dropdown    -->
+                            <li class="nav-item dropdown">
+                                <a id="languages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link language dropdown-toggle">
+                                    <span class="d-none d-sm-inline-block">功能菜单1</span>
+                                </a>
+                                <ul aria-labelledby="languages" class="dropdown-menu">
+                                    <li><a rel="nofollow" href="#" target="_blank" class="dropdown-item">功能子菜单一</a></li>
+                                    <li><a rel="nofollow" href="#" target="_blank" class="dropdown-item">功能子菜单二</a></li>
+                                    <li><a rel="nofollow" href="#" target="_blank" class="dropdown-item">功能子菜单三</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a id="languages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link language dropdown-toggle">
+                                    <span class="d-none d-sm-inline-block">用户信息</span>
+                                </a>
+                                <ul aria-labelledby="languages" class="dropdown-menu">
+                                    <li><a rel="nofollow" href="#" target="_blank" class="dropdown-item">关于我们</a></li>
+                                    <li><a rel="nofollow" href="#" target="_blank" class="dropdown-item">退出系统</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="page-content d-flex align-items-stretch">
+            <!-- Side Navbar -->
+            <nav class="side-navbar">
+                <!-- Sidebar Header-->
+                <div class="sidebar-header d-flex align-items-center">
+                    <div class="avatar">
+                        <img src="~/img/deer.png" alt="..." class="img-fluid rounded-circle" />
+                    </div>
+                    <div class="title">
+                        <h1 class="h4">暖枫无敌</h1>
+                        <p>445997309@qq.com</p>
+                    </div>
+                </div>
+                <ul class="list-unstyled">
+                    <li class="active"><a href="~/Tools"><i class="icon-home"></i>主页</a></li>
+                    <li><a href="#" target="_blank"> <i class="icon-screen"></i>用户管理</a></li>
+                    <li><a href="#" target="_blank"> <i class="icon-screen"></i>机构管理</a></li>
+                    <li><a href="#" target="_blank"> <i class="icon-screen"></i>权限管理</a></li>
+                    <li><a href="#" target="_blank"> <i class="fa fa-bar-chart"></i>菜单管理</a></li>
+                    <li><a href="#" target="_blank"> <i class="icon-grid"></i>商品列表</a></li>
+                    <li><a href="#" title="开源中国" target="_blank"> <i class="icon-padnote"></i>订单列表</a></li>
+                    <li><a href="#" title="IT之家" target="_blank"> <i class="icon-interface-windows"></i>修改密码</a></li>
+                </ul>
+            </nav>
+            <div class="content-inner">
+                @RenderBody()
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
@@ -51,27 +124,16 @@
             &copy; 2019 - DotNetCoreTemplate.Web - <a asp-area="" asp-page="/Privacy">隐私</a>
         </div>
     </footer>
-
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    </environment>
-    <environment exclude="Development">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
-        </script>
-    </environment>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+<!-- JavaScript files-->
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/popper.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script src="~/js/jquery.cookie.js"></script>
+<script src="~/js/jquery.validate.min.js"></script>
+@*<script src="~/js/Chart.min.js"></script>
+<script src="~/js/charts-home.js"></script>*@
+<!-- Main File-->
+<script src="~/js/front.js"></script>

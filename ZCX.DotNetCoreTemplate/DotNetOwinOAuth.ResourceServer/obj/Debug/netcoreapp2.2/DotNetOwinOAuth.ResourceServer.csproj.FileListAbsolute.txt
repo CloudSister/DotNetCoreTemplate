@@ -1,0 +1,14 @@
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\bin\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.deps.json
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\bin\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.runtimeconfig.json
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\bin\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.runtimeconfig.dev.json
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\bin\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.dll
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\bin\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.pdb
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.csprojAssemblyReference.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.csproj.CoreCompileInputs.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.RazorAssemblyInfo.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.RazorAssemblyInfo.cs
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.AssemblyInfoInputs.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.AssemblyInfo.cs
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.RazorTargetAssemblyInfo.cache
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.dll
+D:\2019年开发框架\BS\DotNetCoreTemplate\ZCX.DotNetCoreTemplate\DotNetOwinOAuth.ResourceServer\obj\Debug\netcoreapp2.2\DotNetOwinOAuth.ResourceServer.pdb
